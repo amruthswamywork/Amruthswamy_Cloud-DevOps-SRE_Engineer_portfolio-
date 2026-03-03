@@ -16,7 +16,8 @@ export default function Home() {
           {/* LEFT */}
           <div>
             <p className="uppercase tracking-widest text-sm text-primary font-medium">
-              Cloud Engineer
+              Junior 
+        
             </p>
 
             <h1 className="text-6xl font-bold mt-4 leading-tight">
@@ -24,7 +25,8 @@ export default function Home() {
             </h1>
 
             <h2 className="text-2xl text-gray-600 dark:text-gray-400 mt-4">
-              DevOps Automation Specialist
+             Cloud | SRE | DevOps Automation Engineer 
+          
             </h2>
 
             <p className="mt-8 text-lg text-gray-600 dark:text-gray-400 max-w-xl">
@@ -49,7 +51,7 @@ export default function Home() {
 
             <div className="flex gap-6 mt-10">
               <a
-                href="public\Amruth_swamy_DevOps-Cloud_resume.pdf"
+                href="public/Amruth_swamy_DevOps-Cloud_resume.pdf"
                 download
                 className="px-8 py-3 bg-primary text-white rounded-xl shadow-sm hover:bg-accent transition"
               >
@@ -69,7 +71,7 @@ export default function Home() {
           <div className="flex justify-center">
             <div className="relative w-80 h-80">
                 <img
-                    src="public\profile.png"
+                    src="public/profile.png"
                     alt="Amruth Swamy c p"
                     className="w-full h-full object-cover rounded-2x2 shadow-2x2"
                 />
