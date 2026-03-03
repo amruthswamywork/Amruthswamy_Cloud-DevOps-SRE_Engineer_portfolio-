@@ -51,7 +51,7 @@ export default function Home() {
 
             <div className="flex gap-6 mt-10">
               <a
-                href="public/Amruth_swamy_DevOps-Cloud_resume.pdf"
+                href="assets/Amruth_swamy_DevOps-Cloud_resume.pdf"
                 download
                 className="px-8 py-3 bg-primary text-white rounded-xl shadow-sm hover:bg-accent transition"
               >
@@ -71,7 +71,7 @@ export default function Home() {
           <div className="flex justify-center">
             <div className="relative w-80 h-80">
                 <img
-                    src="public/profile.png"
+                    src="assets/profile.png"
                     alt="Amruth Swamy c p"
                     className="w-full h-full object-cover rounded-2x2 shadow-2x2"
                 />
