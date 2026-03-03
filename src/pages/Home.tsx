@@ -6,18 +6,16 @@ import Skills from "../components/sections/Skills";
 import TerraformSection from "../components/sections/TerraformSection";
 import Education from "../components/sections/Education";
 
-
 export default function Home() {
   return (
     <PageWrapper>
-      <section className="min-h-screen flex items-center px-8 py">
+      <section className="min-h-screen flex items-center px-8 py-20">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
 
-          {/* LEFT */}
+          {/* LEFT SIDE */}
           <div>
             <p className="uppercase tracking-widest text-sm text-primary font-medium">
-              Junior 
-        
+              Junior
             </p>
 
             <h1 className="text-6xl font-bold mt-4 leading-tight">
@@ -25,15 +23,15 @@ export default function Home() {
             </h1>
 
             <h2 className="text-2xl text-gray-600 dark:text-gray-400 mt-4">
-             Cloud | SRE | DevOps Automation Engineer 
-          
+              Cloud | SRE | DevOps Automation Engineer
             </h2>
 
             <p className="mt-8 text-lg text-gray-600 dark:text-gray-400 max-w-xl">
-              Designing scalable AWS infrastructure and automating
-              secure CI/CD pipelines to deliver reliable cloud-native systems.
+              Designing scalable AWS infrastructure and automating secure CI/CD
+              pipelines to deliver reliable cloud-native systems.
             </p>
 
+            {/* Status Indicators */}
             <div className="mt-8 space-y-3">
               {[
                 "AWS Infrastructure: Operational",
@@ -49,9 +47,10 @@ export default function Home() {
               ))}
             </div>
 
+            {/* Buttons */}
             <div className="flex gap-6 mt-10">
               <a
-                href="assets/Amruth_swamy_DevOps-Cloud_resume.pdf"
+                href="/Amruth_swamy_DevOps-Cloud_resume.pdf"
                 download
                 className="px-8 py-3 bg-primary text-white rounded-xl shadow-sm hover:bg-accent transition"
               >
@@ -67,24 +66,26 @@ export default function Home() {
             </div>
           </div>
 
-          {/* RIGHT */}
+          {/* RIGHT SIDE */}
           <div className="flex justify-center">
             <div className="relative w-80 h-80">
-                <img
-                    src="assets/profile.png"
-                    alt="Amruth Swamy c p"
-                    className="w-full h-full object-cover rounded-2x2 shadow-2x2"
-                />
-                <div className="absolute inset-0 rounded-2x1 ring-2 ring-primary/40" />
+              <img
+                src="/profile.png"
+                alt="Amruth Swamy C P"
+                className="w-full h-full object-cover rounded-2xl shadow-2xl"
+              />
+              <div className="absolute inset-0 rounded-2xl ring-2 ring-primary/40" />
             </div>
           </div>
 
         </div>
       </section>
+
+      {/* Other Sections */}
       <CICDFlow />
       <Architecture />
       <Skills />
-        <Education />
+      <Education />
       <TerraformSection />
       <GithubStats />
     </PageWrapper>
