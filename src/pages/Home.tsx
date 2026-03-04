@@ -50,7 +50,7 @@ export default function Home() {
             {/* Buttons */}
             <div className="flex gap-6 mt-10">
               <a
-                href="/Amruth_swamy_DevOps-Cloud_resume.pdf"
+                href={`${import.meta.env.BASE_URL}Amruth_swamy_DevOps-Cloud_resume.pdf`}
                 download
                 className="px-8 py-3 bg-primary text-white rounded-xl shadow-sm hover:bg-accent transition"
               >
@@ -70,7 +70,7 @@ export default function Home() {
           <div className="flex justify-center">
             <div className="relative w-80 h-80">
               <img
-                src="/profile.png"
+                src={`${import.meta.env.BASE_URL}profile.png`}
                 alt="Amruth Swamy C P"
                 className="w-full h-full object-cover rounded-2xl shadow-2xl"
               />
