@@ -15,10 +15,14 @@ This project demonstrates my practical knowledge as a Cloud / DevOps / SRE Engin
 
 AWS infrastructure architecture
 
-<img width="1040" height="975" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/19b02118-f26a-4054-bf41-26dde2727438" />
+<img width="182" height="170" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/a65e5aa6-1c8d-4ab5-9028-18c33afdc510" />
+
 
 
 CI/CD automation pipelines
+
+<img width="2778" height="130" alt="mermaid-diagram (1)" src="https://github.com/user-attachments/assets/d44d450e-ede4-4361-ac59-daa6ccd687e8" />
+
 
 Infrastructure as Code (Terraform)
 
